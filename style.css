@@ -76,9 +76,13 @@ body{
     cursor: pointer;
     margin: 0.5rem;
 }
+.quote-box button:hover{
+    background: #fff;
+    color:rgb(23, 124, 229) ;
+}
 .quote-box button i{
     font-size: 20px;
-    background: transparent;
+    
     margin-right: 8px;
 }
 @media only screen and (max-width:710px){

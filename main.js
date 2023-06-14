@@ -16,11 +16,9 @@ function tweet(){
     window.open("https://twitter.com/intent/tweet?text= " + quote.innerHTML, + "---by" , + author.innerHTML);
 }
 
-
-
 soundbtn.addEventListener('click',()=>{
     let utterance = new SpeechSynthesisUtterance(`${quote.innerHTML}, "${author.innerHTML}"`);
     speechSynthesis.speak(utterance);
-})
+});
 
 
