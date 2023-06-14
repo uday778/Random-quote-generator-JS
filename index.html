@@ -1,0 +1,33 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote  of the day</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <div class="quote-box">
+        <h2>Quote of the Day</h2>
+        <blockquote id="quote" ></blockquote>
+        <span id="author"></span>
+        <div>
+            <button id="quoteBtn" onclick="getquote(api)">NEW QUOTE</button>
+            <button onclick="tweet()"><i class='bx bxl-twitter'></i>TWEET</button>
+            <button id="soundBtn"><i class='bx bxs-user-voice'></i> HEAR</button>
+
+        </div>
+    </div>
+
+    
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
